@@ -36,6 +36,6 @@ docker run --rm -ti -w /sandbox -v $PWD:/sandbox ghcr.io/nsu-syspro-llp/runner
 
 ## Aarch64
 
-- [System V ABI](./arm64_docs/system_v_abi.pdf)
 - [Соглашение о вызовах](./arm64_docs/procedure_call_standard.pdf)
-- [Справочник инструкций](./arm64_docs/a64_isa_a_profile.pdf)
+- [Справочник инструкций (A-profile)](./arm64_docs/a64_isa_a_profile.pdf)
+- [System V ABI](./arm64_docs/system_v_abi.pdf)
