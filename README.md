@@ -6,7 +6,9 @@
 
 ```sh
 apt update
-apt install clang-format gcc gdb make nasm
+apt install clang-format gcc gdb make nasm # x86-64
+apt install binutils-aarch64-linux-gnu gcc-aarch64-linux-gnu \
+    libc-dev-arm64-cross qemu-user # AArch64
 ```
 
 ### Docker
